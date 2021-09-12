@@ -1,0 +1,76 @@
+* {
+    font-family:"Century Gothic", sans-serif;
+}
+
+h3 {
+    color: teal;
+}
+
+
+
+#container {
+    background-color: #efd7ee;
+    position: relative;
+    left: 200px;
+    border: teal 7px;
+    box-shadow: 0 0 7px 3px teal;
+    height: auto;
+    width: 900px;
+    margin: 12px auto;
+    float: left;
+    padding: 20px;
+
+}
+
+#one_cell {
+    border: #3ac8bf 3px;
+    border-style: dashed;
+    float: left;
+    margin: 35px ;
+    position: relative;
+    height: auto;
+    width: 700px;
+}
+
+#name_event {
+    font-size: 20pt;
+    color: teal;
+    width: 650px;
+    height: auto;
+    margin: 10px;
+}
+
+#date_event {
+    float: left;
+    width: 150px;
+    height: 20px;
+    margin: 10px;
+}
+
+#hour_begin {
+    float: left;
+    width: 75px;
+    height: 20px;
+    margin: 10px;
+}
+
+#hour_end {
+    float: left;
+    width: 75px;
+    height: 20px;
+    margin: 10px;
+}
+
+#organization {
+    float: left;
+    width: 75px;
+    height: 20px;
+    margin: 10px;
+}
+
+#description_event {
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}

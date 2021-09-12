@@ -1,0 +1,57 @@
+* {
+    font-family:"Century Gothic", sans-serif;
+}
+
+#container {
+
+}
+
+#one_user {
+    position: relative;
+    border: teal 7px;
+    box-shadow: 0 0 7px 3px #3ac8bf;
+    height: auto;
+    width: 865px;
+    margin: 20px auto;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#user_name {
+    font-size: 20pt;
+    margin: 10px;
+    position: relative;
+    left: 20px;
+}
+
+a.accountuser {
+    color: teal;
+    text-decoration: none;
+}
+
+a.accountuser:hover {
+    background-color: #efaadf;
+}
+
+#one_event_user{
+    border: #3ac8bf 3px;
+    border-style: dashed;
+    float: left;
+    margin: 35px ;
+    position: relative;
+    height: auto;
+    width: 700px;
+
+}
+.container_event_user {
+    position: relative;
+    border: teal 7px;
+    box-shadow: 0 0 7px 3px teal;
+    height: auto;
+    width: 900px;
+    margin: 0 auto;
+    float: left;
+
+}

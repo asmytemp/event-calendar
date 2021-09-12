@@ -1,0 +1,65 @@
+* {
+    font-family:"Century Gothic", sans-serif;
+}
+
+
+h4 {
+
+}
+
+#choose {
+    position: relative;
+    border: teal 7px;
+    box-shadow: 0 0 7px 3px teal;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+
+#b_choose {
+    background-color: #efd7dc;
+    opacity: 25%;
+    width: 100px;
+    height: 35px;
+    margin-left:10px;
+    box-shadow: 0 0 7px 3px teal;
+    border-radius: 7px;
+}
+
+#b_choose:hover{
+    background: #efaadf;
+    border-color: rgba(228, 149, 195, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+
+
+a.aboutevent {
+    color: teal;
+    text-decoration: none;
+}
+
+a.aboutevent:hover {
+    background-color: #efaadf;
+}
+
+#date_event {
+
+}
+
+#hour_begin {
+
+}
+
+#hour_end {
+
+}
+
+#organization {
+
+}
+
+#description_event {
+
+}
+

@@ -1,0 +1,80 @@
+* {
+    font-family:"Century Gothic", sans-serif;
+}
+
+
+body{
+    background-color: #fbe7f7;
+}
+
+#rightitem {
+     position:relative;
+     float: right;
+ }
+
+#registrationitem {
+    position:relative;
+    float: right;
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px; /*делаем отступ сверху*/
+    background:teal; /*добавляем фон всему меню*/
+    height: 50px; /*задаем высоту*/
+}
+a.topmenu_li, a.onecategory {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:teal; /*добавляем фон к пункту меню*/
+    color: #ffffff; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+    border-right: 1px solid teal; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+a.topmenu_li:hover, a.onecategory:hover {
+    background: #00aeae;/*добавляем эффект при наведении*/
+}
+a:active {
+    color: #3ac8bf;
+}
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    position:relative; /*задаем позицию для позиционирования*/
+}
+
+#search_type {
+    left: 20%;
+    color: white;
+    position: relative;
+    border: teal 7px;
+    box-shadow: 0 0 7px 3px teal;
+    height: auto;
+    margin: 15px;
+    float: left;
+
+}
+
+#input_search {
+    width: 250px;
+}
+
+#b_search {
+    background-color: #efd7dc;
+    opacity: 25%;
+    width: 75px;
+    height: auto;
+    margin-left:10px;
+    box-shadow: 0 0 7px 3px teal;
+    border-radius: 7px;
+}
+
+#b_search:hover {
+    background: #efaadf;
+    border-color: rgba(228, 149, 195, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}

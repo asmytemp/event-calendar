@@ -1,0 +1,68 @@
+* {
+    font-family:"Century Gothic", sans-serif;
+}
+
+#button_admin_us {
+    position: relative;
+    left: 20px;
+
+    width: 200px;
+    margin: 10px;
+    color: #005353;
+    background-color: #efd7dc;
+    opacity: 25%;
+    height: 50px;
+    box-shadow: 0 0 7px 3px teal;
+    border-radius: 7px;
+ }
+
+#button_admin_merop {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin: 10px;
+    color: #005353;
+    background-color: #efd7dc;
+    opacity: 25%;
+    height: 50px;
+    box-shadow: 0 0 7px 3px teal;
+    border-radius: 7px;
+}
+
+#one_cell_user {
+    border: #3ac8bf 3px;
+    border-style: double;
+    float: left;
+    margin: 30px ;
+    position: relative;
+    height: 100px;
+    width: 300px;
+}
+
+#but_delete_user {
+    top: 15px;
+    left: 120px;
+    position: relative;
+    float: left;
+    height: 25px;
+    width: 45px;
+}
+
+#but_delete_event {
+    position: relative;
+    float: right;
+    height: 25px;
+    width: 45px;
+}
+
+#button_admin_merop:hover {
+    background: #efaadf;
+    border-color: rgba(228, 149, 195, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+#button_admin_us:hover {
+    background: #efaadf;
+    border-color: rgba(228, 149, 195, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}

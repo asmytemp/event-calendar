@@ -1,0 +1,54 @@
+* {
+    font-family:"Century Gothic", sans-serif;
+}
+
+#registrationh2 {
+    color: #ffffff;
+    box-shadow: 0 4px 6px -5px hsl(176, 56%, 51%), inset 0px 4px 6px -5px #3ac8bf;
+    opacity: 1;
+}
+
+#registration_form {
+    position: relative;
+    border: teal 7px;
+    box-shadow: 0 0 7px 3px #3ac8bf;
+    height: auto;
+    width: 850px;
+    margin: 20px auto;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background-color: #00a5a5;
+    border-radius: 7px;
+
+}
+
+#registration_button {
+    margin: 20px;
+    color: #005353;
+    background-color: #efd7dc;
+    opacity: 25%;
+    width: 200px;
+    height: 35px;
+    box-shadow: 0 0 7px 3px teal;
+    border-radius: 7px;
+}
+
+.newuser {
+    margin: 20px;
+    color: white;
+
+}
+
+.newuserinput {
+    box-shadow: 0 4px 6px -5px hsl(176, 56%, 51%), inset 0px 4px 6px -5px #3ac8bf;
+    border-radius: 7px;
+    height: 20px;
+    width: 200px;
+}
+
+#registration_button:hover {
+    background: #efaadf;
+    border-color: rgba(228, 149, 195, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
